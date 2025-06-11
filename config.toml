@@ -1,7 +1,6 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs =
-
-
+compression-level = 9
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
@@ -19,7 +18,7 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "YouTube"
 build-mode = "module"
-excluded-patches = "'Enable debugging' 'GmsCore support'"
+excluded-patches = "'Enable debugging' 'GmsCore support' 'Enable debug logging' 'Hook Youtube Music actions' 'Hook download actions' 'Return Youtube Dislike' 'Spoof app version'"
 
 [Music]
 enabled = false
