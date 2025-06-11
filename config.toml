@@ -17,7 +17,8 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "YouTube"
 build-mode = "module"
-excluded-patches = "'Enable debugging' 'GmsCore support' 'Enable debug logging' 'Hook Youtube Music actions' 'Hook download actions' 'Return Youtube Dislike' 'Spoof app version'"
+excluded-patches = "'Enable debugging' 'GmsCore support' 'Enable debug logging' 'Hook Youtube Music actions' 'Hook download actions' 'Return Youtube Dislike' 'Spoof app version' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF111111 -OlightThemeBackgroundColor=#FFF9F9F9"
 
 [Music]
 enabled = false
