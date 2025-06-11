@@ -1,5 +1,6 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+parallel-jobs =
+
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -7,6 +8,8 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+patches-version = "dev" # 'latest', 'dev', or a version number. default: "latest"
+cli-version = "dev"
 module-prop-name = "darkplay_rvy"
 cli-source = "inotia00/revanced-cli"
 riplib = true
