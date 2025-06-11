@@ -8,6 +8,7 @@ parallel-jobs = 1
 
 [YouTube]
 module-prop-name = "darkplay_rvy"
+cli-source = "inotia00/revanced-cli"
 riplib = true
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
