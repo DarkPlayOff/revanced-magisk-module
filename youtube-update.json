@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (patches dev.4)",
-  "versionCode": 4,
-  "zipUrl": "https://github.com/DarkPlayOff/revanced-magisk-module/releases/download/4/youtube-youtube-magisk-v19.47.53-all.zip",
+  "version": "v20.21.35 (patches dev.4)",
+  "versionCode": 5,
+  "zipUrl": "https://github.com/DarkPlayOff/revanced-magisk-module/releases/download/5/youtube-youtube-magisk-v20.21.35-all.zip",
   "changelog": "https://raw.githubusercontent.com/DarkPlayOff/revanced-magisk-module/update/build.md"
 }
